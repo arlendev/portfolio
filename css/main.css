@@ -1,10 +1,4 @@
 /**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
  *  02. base style overrides
@@ -32,9 +26,9 @@
 /** 
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
+ * ===================================================================
  */
+ 
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
@@ -46,6 +40,7 @@
  *
  * ------------------------------------------------------------------- 
  */
+
 html {
 	font-size: 10px;
 }
@@ -2026,7 +2021,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#cta {
+/* #cta {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
 	text-align: center;
@@ -2045,7 +2040,7 @@ header .logo a {
 	height: 7.8rem;
 	width: 7.8rem;
 	border-radius: 50%;
-}
+} */
 
 /**
  * section ads - (_layout.scss)
@@ -2078,14 +2073,14 @@ header .logo a {
  * cta
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width:650px) {
+/* @media only screen and (max-width:650px) {
 	.cta-content {
 		max-width: 650px;
 	}
 	.cta-content h2 {
 		font-size: 2.4rem;
 	}
-}
+} */
 
 
 /** 
@@ -2094,7 +2089,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+/* #services {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2154,7 +2149,7 @@ header .logo a {
 }
 
 /* pagination */
-.owl-pagination {
+/* .owl-pagination {
 	text-align: center;
 	width: 100%;
 	margin: .6rem 0 0;
@@ -2173,7 +2168,7 @@ header .logo a {
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: #FF0077;
-}
+} */ */
 
 
 /** 
@@ -2182,7 +2177,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#stats {
+/* #stats {
 	background: #990047;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
@@ -2219,7 +2214,7 @@ header .logo a {
  * stats
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width:1024px) {
+/* @media only screen and (max-width:1024px) {
 	#stats .stat:nth-child(n) {
 		border-left: 1px solid rgba(255, 255, 255, 0.12);
 		padding-bottom: 1.5rem;
@@ -2240,7 +2235,7 @@ header .logo a {
 	#stats .stat:nth-child(n) {
 		border: none;
 	}
-}
+} */ */
 
 
 /** 
