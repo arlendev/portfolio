@@ -2531,6 +2531,10 @@ footer .copyright span:last-child::after {
 	display: none;
 }
 
+.copyright div {
+	width: 8px;
+}
+
 /**
  * responsive:
  * footer
