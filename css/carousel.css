@@ -1,0 +1,128 @@
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+}
+
+.carousel {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  background: #fff;
+}
+
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 300px;
+  --card-height: 450px;
+  /* --carousel-min-width: 600px; */
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .2s ease;
+}
+
+.card-carousel .card {
+  background: #EBEBEB;
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  transition: inherit;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em;
+  filter: brightness(.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  font-size: 0.9rem;
+}
+
+.card button {
+  font-size: 15px;
+  width: 7rem;
+  height: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #313131;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: #feac40;
+}
+
+.card.highlight {
+  filter: brightness(1)
+}
+
+.card:nth-of-type(1) .image-carousel {
+    background-image: url("../img/carousel/logoArlen.png");
+}
+ 
+.card:nth-of-type(2) .image-carousel {
+  background-image: url("../img/carousel/bikcraft.png")
+}
+
+.card:nth-of-type(3) .image-carousel {
+  background-image: url("../img/carousel/wildbeast.png")
+}
+
+.card:nth-of-type(4) .image-carousel {
+  background-image: url("../img/carousel/duoforti.png")
+}
+
+.card:nth-of-type(5) .image-carousel {
+  background-image: url("../img/carousel/apeperia.png")
+}
+
+.card:nth-of-type(6) .image-carousel {
+  background-image: url("../img/carousel/flexBlog.png")
+}
+
+.card:nth-of-type(7) .image-carousel {
+  background-image: url("../img/carousel/brafé.png")
+}
+
+.image-carousel {
+  width: 20em;
+  height: 20em;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 2em;
+  border-radius: 10%;
+  padding: 1em;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+}
+
+
+
+

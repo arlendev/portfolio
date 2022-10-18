@@ -1,0 +1,458 @@
+/* Reset ========================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* General settings / fonts ========================== */
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: poppins-regular, Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Intro ========================== */
+
+.logo a img {
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    margin-left: 2rem;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../img/intro-bg.jpeg) no-repeat bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-height: 720px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.intro-content h1 {
+    color: #FFFFFF;
+    font-size: 4.6rem;
+}
+
+.intro-content h3 {
+    color: #FEAC40;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.intro-content span {
+    font-size: 0.9rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #FFFFFF;
+}
+
+.intro-content p {
+    font-size: 0.9rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #FFFFFF;
+}
+
+.intro-btn {
+    color: #FFFFFF;
+    padding: 1.0rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+}
+
+.intro-content .intro-btn:hover {
+    border-color: #FEAC40;
+}
+
+.social-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.social-itens i {
+    margin: 0 1.5rem 0 1.5rem;
+    font-size: 2.2rem;
+    color: #FFFFFF;
+}
+
+.social-itens i:hover {
+    color: #FEAC40;
+}
+
+/* About ========================== */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EBEBEB;
+    color: #313131;
+    width: 100%;
+    padding: 5rem 0 5rem 0;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #FEAC40;
+}
+
+.about-title h2 {
+    font-size: 1.75rem;
+    margin: 1rem 0 1rem 0rem;
+    color: #313131;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 50%
+}
+
+.about-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: .9rem 1rem 0 0;
+    float: left;
+}
+
+.about-info p {
+    width: 75%;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #313131;
+}
+
+.about-profile {
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+}
+
+.profile, .skills {
+    width: 48%;
+    font-size: 1rem;
+    text-align: justify;
+    color: #313131;
+}
+
+.profile h3, .skills h3 {
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.profile p:first-child {
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.about-btn {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    padding: 1.0rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5%;
+    letter-spacing: .25rem;
+    margin-top: 1rem;
+}
+
+.about-btn:hover {
+    color: #FEAC40;
+}
+
+/* Portfolio ========================== */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5rem 0 5rem 0;
+}
+
+.portfolio-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-title h2 {
+    font-size: 1.75rem;
+    margin: 1rem 0 1rem 0rem;
+    color: #313131;
+}
+
+.portfolio-title h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #FEAC40;
+}
+
+.portfolio-title p {
+    font-size: 1.2rem;
+    color: #978888;
+}
+
+.card-carousel {
+    width: 100%;
+    min-height: 30rem;
+    padding-top: 3rem;
+}
+
+.card:nth-of-type(4) a {
+    display: none;
+}
+
+/* Contato ========================== */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #151515;
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 46%;
+}
+
+.icon i {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.icon h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: #FEAC40;
+}
+
+.icon p {
+    font-size: 1rem;
+    color: #978888;
+}
+
+/* Footer ========================== */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #151515;
+    padding: 0 0 3rem 0;
+}
+
+#footer .social-itens i {
+    font-size: 1.5rem;
+}
+
+.author {
+    font-size: 1rem;
+    color: #978888;
+}
+
+.author a {
+    color: #FFFFFF;
+}
+
+.author a:hover {
+    color: #FEAC40;
+}
+
+/* Go-top ========================== */
+
+.go-top {
+    position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.go-top a {
+    width: 30px;
+    height: 100px;
+}
+
+.go-top img {
+    width: 40px;
+    background-color: #FEAC40;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.go-top a img:hover {
+    background-color: #fa940e;
+}
+
+/* Media queries ========================== */
+
+@media only screen and (max-width:1200px) {
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-info p {
+        margin-top: 30px;
+    }
+    .about-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile, .skills {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .intro-content h1 {
+        font-size: 3.5rem;
+    }
+    .icon i {
+        font-size: 1.2rem;
+    }
+    .icon h3 {
+        font-size: 0.7rem;
+    }
+    .icon p {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        position: relative;
+    }
+	.intro-content h1 {
+		font-size: 2.0rem;
+	}
+    .intro-content h3 {
+        font-size: 20px;
+    }
+    .intro-content p {
+        font-size: 12px;
+    }
+    .intro-content p {
+        display: none;
+    }
+    .about-title h2 {
+        display: none;
+    }
+    .about-info p {
+        display: none;
+    }
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile h3 {
+        display: none;
+    }
+    .profile p {
+        display: none;
+    }
+    .skills h3 {
+        display: none;
+    }
+    .skills p {
+        display: none;
+    }
+    .portfolio-title h3 {
+        font-size: 20px;
+    }
+    .portfolio-title h2 {
+        font-size: 20px;
+    }
+    .portfolio-title p {
+        display: none;
+    }
+    .card-carousel {
+        width: 100%;
+    }
+    .icon i {
+        display: none;
+    }
+    .icon h3 {
+        display: none;
+    }
+    .icon p {
+        display: none;
+    }
+}
