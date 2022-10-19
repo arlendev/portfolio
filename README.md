@@ -53,9 +53,9 @@ This project is under MIT license. See the [LICENSE](LICENSE) file for more deta
 
 ## :v: Credits ##
 
-## :pencil2: Author ##
-
 Partial credits [William Lucas](https://github.com/WilliamDosSantos)
+
+## :pencil2: Author ##
 
 <div align="center">
   <a href="https://arlendev.github.io/portfolio/">
