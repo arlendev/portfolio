@@ -391,8 +391,8 @@ body {
 }
 
 @media only screen and (max-width:600px) {
-    .logo {
-        position: relative;
+    .logo a img {
+        position: absolute;;
     }
 	.intro-content h1 {
 		font-size: 2.0rem;
@@ -407,7 +407,7 @@ body {
         display: none;
     }
     .about-title h2 {
-        display: none;
+        /* display: none; */
     }
     .about-info p {
         display: none;
@@ -422,17 +422,35 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .profile h3 {
-        display: none;
+        /* display: none; */
     }
     .profile p {
-        display: none;
+        /* display: none; */
+        width: 300px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .skills h3 {
-        display: none;
+        /* display: none; */
     }
     .skills p {
-        display: none;
+        /* display: none; */
+        width: 300px;
+    }
+    .skills-bars {
+        width: 300px;
+    }
+    .about-btn {
+        margin-top: 40px;
     }
     .portfolio-title h3 {
         font-size: 20px;
