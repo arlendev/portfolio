@@ -400,7 +400,7 @@ body {
 
 @media only screen and (max-width:600px) {
     .logo a img {
-        position: absolute;;
+        position: absolute;
     }
 	.intro-content h1 {
 		font-size: 1.8rem;
@@ -409,7 +409,9 @@ body {
         font-size: 20px;
     }
     .intro-content span {
-    font-size: 9px;
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
     }
     .intro-content p {
         font-size: 12px;
