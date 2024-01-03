@@ -408,6 +408,9 @@ body {
     .intro-content h3 {
         font-size: 20px;
     }
+    .intro-content span {
+    font-size: 8px;
+    }
     .intro-content p {
         font-size: 12px;
     }
