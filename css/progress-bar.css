@@ -20,15 +20,19 @@
   }
   
   .html5 {
-    width: 50%;
+    width: 70%;
   }
   
   .css3 {
-    width: 50%;
+    width: 70%;
   }
   
   .javascript {
     width: 40%;
+  }
+
+  .vue {
+    width: 50%;
   }
   
   .python {
